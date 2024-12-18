@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+body{
+    background-color: cadetblue;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#cardborder{
+    height:250px;
+    width:250px;
+    background-color: azure;
+    position:absolute;
+    border-style: groove;
+    border-radius: 10px;
+}
+#cardborder img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 5px;
+    object-position: center;
+
+}
+#cardborder i{
+    color:white;
+    font-size: 50px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+    transition: all ease 5s;
+}
+
+#like{
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:white;
+    font-weight: bolder;
+
+}
+#marquee{
+    position:absolute;
+    bottom:0;
+    font-weight: bolder;
+}
